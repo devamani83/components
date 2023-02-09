@@ -1,0 +1,10 @@
+<app-divider>Modules Component</app-divider>
+<button (click)="onClick()">Show Modal</button>
+<app-modal (click)="onClick()" *ngIf="modalOpen">
+    <div modalTitle="Reusable Modal">
+
+    </div>
+    <p>
+        Some content for the modal window should go right here!
+    </p>
+</app-modal>
